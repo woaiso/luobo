@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<title>萝卜寨</title>
+	<link rel="stylesheet" href="css/weui.min.css">
+	<link rel="stylesheet" href="css/jquery-weui.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<!--图片轮播开始-->
+	<div class="turnip-swiper swiper-container" data-space-between='10' data-pagination='.swiper-pagination' data-autoplay="1000">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><img src="./images/swiper/1.jpg" alt=""></div>
+			<div class="swiper-slide"><img src="./images/swiper/2.jpg" alt=""></div>
+			<div class="swiper-slide"><img src="./images/swiper/3.jpg" alt=""></div>
+		</div>
+        <div class="swiper-pagination"></div>
+	</div>
+    <div>
+        <article class="weui-article">
+            <h1><center>茶的文化</center></h1>
+            <section>
+                茶文化意为饮茶活动过程中形成的文化特征，包括茶道、茶德、茶精神、茶联、茶书、茶具、茶画、茶学、茶故事、茶艺等等。茶文化起源地为中国。中国是茶的故乡，中国人饮茶，据说
+                <a style="color:#586C94" href="javascript:;">点击详细>></a>
+            </section>
+        </article>
+    </div>
+    <div class="weui-flex turnip-footer">
+        <div>
+            <a style="display:block;width:48px;" href="javascript:;">
+                <img style="width: 32px;margin: 8px 0 0 8px;" src="./images/home.png" alt="">
+            </a>
+        </div>
+        <div class="weui-flex__item">
+            <a href="javascript:;" class="item">
+                特有的美食
+            </a>
+        </div>
+        <div class="weui-flex__item">
+            <a href="javascript:;" class="item">
+                农家住宿
+            </a>
+        </div>
+        <div class="weui-flex__item">
+            <a href="javascript:;" class="item">
+                咨询留言
+            </a>
+        </div>
+    </div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-weui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        $(function () {
+            $(".swiper-container").swiper({
+                speed: 400,
+                spaceBetween: 100,
+                pagination: '.swiper-pagination',
+                paginationClickable: true
+            });
+        });
+    </script>
+</body>
+
+</html>

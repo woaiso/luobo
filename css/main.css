@@ -1,0 +1,154 @@
+/**轮播图**/
+
+.main-swiper {
+    height: 360px;
+}
+
+.main-swiper .swiper-slide img {
+    height: 100%;
+}
+
+
+/****农产品*****/
+
+.product-nav {
+    height: 160px;
+    overflow: hidden;
+}
+
+.product-nav-img {
+    width: 100%;
+}
+
+.products {
+    margin: 0 8px;
+}
+
+.products .title {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+.product-image {
+    overflow: hidden;
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+}
+
+.product-info {
+    padding: 8px 0;
+}
+
+.product-info-title {
+    color: #333;
+    font-size: 12px;
+}
+
+.product-price {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.59);
+    color: white;
+}
+
+
+/*****农家乐列表*****/
+
+.turnips .item {
+    position: relative;
+    padding: 12px;
+    display: block;
+    color: #55555d;
+    clear: both;
+}
+
+.turnips .item .item-over {
+    float: left;
+    position: relative;
+    width: 84px;
+    overflow: hidden;
+}
+
+.turnips .item .item-over img {
+    display: block;
+    margin-left: -12px;
+    width: 108px;
+}
+
+.turnips .item .item-detail {
+    position: relative;
+    margin-left: 96px;
+}
+
+.turnips .item .item-detail .desc {
+    font-size: 14px;
+}
+
+.turnips .item .item-detail .price-line {
+    font-size: 12px;
+    color: #666;
+}
+
+.turnips .item .item-detail .price-line .bought {
+    font-weight: bold;
+}
+
+
+/****消息推送****/
+
+.message-list {
+    color: #222;
+    font-size: 15px;
+}
+
+.message-list .item {
+    display: block;
+    color: #222;
+}
+
+.page__ft {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    background: #f8f8f8;
+}
+
+.circle {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.price {
+    color: #ff4683;
+}
+
+.turnip-swiper {
+    height: 200px;
+}
+
+.turnip-swiper img {
+    width: 100%;
+}
+
+.turnip-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #F1F1F1;
+}
+
+.turnip-footer .item {
+    height: 48px;
+    border-left: 1px solid #F1F1F1;
+    color: #586C94;
+    display: block;
+    line-height: 48px;
+    text-align: center;
+}
